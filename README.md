@@ -1,6 +1,6 @@
 # The Architect of Autonomy
 
-A Forensic Investigation into the Identity of Satoshi Nakamoto and the Cryptographic Genesis of Bitcoin.
+> A Forensic Investigation into the Identity of Satoshi Nakamoto and the Cryptographic Genesis of Bitcoin.
 
 ## Table of Contents
 
@@ -139,7 +139,7 @@ The "The Times" phrase serves as a cautionary tale in cryptography. Because the 
 
 | Phrase Used | Resulting Private Key (SHA-256) | Derived Addresses |
 | :--- | :--- | :--- |
-| `"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"` | `a6d72baa3db900b03e70df880e503e91`<br>`64013b4d9a470853edc115776323a098` | `1Nbm3JoDpwS4HRw9WmHaKGAzaeSKXoQ6Ej` (22 Transactions)<br><br>`1F8oQoSGLMSouTsu94iXGjBNAt43T97dvY` (4 Transactions) |
+| `"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"` | `a6d72baa3db900b03e70df880e503e91`<br>`64013b4d9a470853edc115776323a098` | `1Nbm3JoDpwS4HRw9WmHaKGAzaeSKXoQ6Ej`<br>(22 Transactions)<br><br>`1F8oQoSGLMSouTsu94iXGjBNAt43T97dvY`<br>(4 Transactions) |
 
 To further illustrate this concept, researchers have explored hashing other famous quotes to see if early adopters left Easter eggs in the blockchain. The deterministic nature of cryptographic hashing means that any specific thought can be permanently mapped to an exact, immutable coordinate on the Bitcoin network:
 
