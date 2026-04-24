@@ -1,4 +1,18 @@
-# The Architect of Autonomy: A Forensic Investigation into the Identity of Satoshi Nakamoto and the Cryptographic Genesis of Bitcoin
+# The Architect of Autonomy
+
+A Forensic Investigation into the Identity of Satoshi Nakamoto and the Cryptographic Genesis of Bitcoin.
+
+## Table of Contents
+
+- [The Genesis Block and the Chancellor's Manifesto](#the-genesis-block-and-the-chancellors-manifesto)
+- [The Mechanics of the "Brainwallet" and the Secret Phrase](#the-mechanics-of-the-brainwallet-and-the-secret-phrase)
+- [Candidate Dossier: Hal Finney](#candidate-dossier-hal-finney)
+- [Candidate Dossier: Adam Back & Peter Todd](#candidate-dossier-adam-back--peter-todd)
+- [Candidate Dossier: Nick Szabo](#candidate-dossier-nick-szabo)
+- [Candidate Dossier: Len Sassaman](#candidate-dossier-len-sassaman)
+- [Candidate Dossier: Dorian Nakamoto](#candidate-dossier-dorian-nakamoto)
+- [Outlying and Debunked Theories](#outlying-and-debunked-theories)
+- [Conclusion: Cryptographic Forensics and the Legacy of Anonymity](#conclusion-cryptographic-forensics-and-the-legacy-of-anonymity)
 
 The identity of Satoshi Nakamoto, the pseudonymous creator of Bitcoin, represents perhaps the most significant enduring mystery of the digital age. Beyond the intrigue of unmasking a billionaire recluse, the search for Nakamoto is a pursuit of the intellectual and philosophical origins of decentralized finance. 
 
@@ -18,7 +32,7 @@ Nakamoto's choice to embed this headline suggests that Bitcoin was conceived as 
 
 A persistent theory in the community suggests that Nakamoto may have used specific phrases to generate the private keys for the first Bitcoin addresses, a method known as a "brainwallet." This process involves applying a cryptographic hash function, typically SHA-256, to a memorable string of text to derive a 256-bit private key.
 
-![Bitcoin Address Derivation](assets/Bitcoin Address.png)
+![Bitcoin Address Derivation](assets/Bitcoin%20Address.png)
 
 The phrase from the Genesis Block has been the subject of intense experimentation. Analysis of the blockchain reveals that at least two Bitcoin addresses appear to be derived from variations of this phrase. Collectively, these addresses have recorded 26 transactions, serving as a historical "Wallet Lab" for researchers to study early network behavior and the risks associated with human-generated passphrases. Enthusiasts can explore these derivations at educational platforms such as the Wallet Lab at [https://learn.quantumbtc.dev/](https://learn.quantumbtc.dev/), which allows users to see how specific thoughts are transformed into immutable blockchain coordinates.
 
@@ -125,7 +139,7 @@ The "The Times" phrase serves as a cautionary tale in cryptography. Because the 
 
 | Phrase Used | Resulting Private Key (SHA-256) | Derived Addresses |
 | :--- | :--- | :--- |
-| `"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"` | `a6d72baa3db900b03e70df880e503e9164013b4d9a470853edc115776323a098` | `1Nbm3JoDpwS4HRw9WmHaKGAzaeSKXoQ6Ej` (22 Transactions)<br><br>`1F8oQoSGLMSouTsu94iXGjBNAt43T97dvY` (4 Transactions) |
+| `"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"` | `a6d72baa3db900b03e70df880e503e91`<br>`64013b4d9a470853edc115776323a098` | `1Nbm3JoDpwS4HRw9WmHaKGAzaeSKXoQ6Ej` (22 Transactions)<br><br>`1F8oQoSGLMSouTsu94iXGjBNAt43T97dvY` (4 Transactions) |
 
 To further illustrate this concept, researchers have explored hashing other famous quotes to see if early adopters left Easter eggs in the blockchain. The deterministic nature of cryptographic hashing means that any specific thought can be permanently mapped to an exact, immutable coordinate on the Bitcoin network:
 
