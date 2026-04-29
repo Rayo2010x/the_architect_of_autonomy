@@ -5,13 +5,14 @@
 ## Table of Contents
 
 - [The Genesis Block and the Chancellor's Manifesto](#the-genesis-block-and-the-chancellors-manifesto)
-- [The Mechanics of the "Brainwallet" and the Secret Phrase](#the-mechanics-of-the-brainwallet-and-the-secret-phrase)
 - [Candidate Dossier: Hal Finney](#candidate-dossier-hal-finney)
 - [Candidate Dossier: Adam Back & Peter Todd](#candidate-dossier-adam-back--peter-todd)
 - [Candidate Dossier: Nick Szabo](#candidate-dossier-nick-szabo)
 - [Candidate Dossier: Len Sassaman](#candidate-dossier-len-sassaman)
 - [Candidate Dossier: Dorian Nakamoto](#candidate-dossier-dorian-nakamoto)
 - [Outlying and Debunked Theories](#outlying-and-debunked-theories)
+- [The Mechanics of the "Brainwallet" and the Secret Phrase](#the-mechanics-of-the-brainwallet-and-the-secret-phrase)
+
 - [Conclusion: Cryptographic Forensics and the Legacy of Anonymity](#conclusion-cryptographic-forensics-and-the-legacy-of-anonymity)
 
 The identity of Satoshi Nakamoto, the pseudonymous creator of Bitcoin, represents perhaps the most significant enduring mystery of the digital age. Beyond the intrigue of unmasking a billionaire recluse, the search for Nakamoto is a pursuit of the intellectual and philosophical origins of decentralized finance. 
@@ -27,14 +28,6 @@ The Bitcoin network commenced its existence with the mining of Block 0, the "Gen
 This specific text was a direct reference to a headline in the London-based newspaper *The Times*, published on the day the network launched. While it served a practical purpose as a "proof of time"—demonstrating that the block could not have been pre-mined before January 3—its symbolic weight is far more profound. The 2008 financial crisis, characterized by the collapse of major financial institutions and subsequent government interventions, provided the catalyst for Bitcoin's creation. The reference to a "second bailout" highlights a period of extreme leverage and systemic instability caused by the central banking model.
 
 Nakamoto's choice to embed this headline suggests that Bitcoin was conceived as a "trustless" alternative to traditional banking. In the legacy system, transactions rely on opaque intermediaries; Bitcoin, conversely, relies on a globally distributed ledger where rules are enforced by mathematics rather than human fallibility. This ideological anchor is essential to understanding the profile of the creator, who likely harbored libertarian or cypherpunk leanings and a deep-seated skepticism toward centralized monetary control.
-
-## The Mechanics of the "Brainwallet" and the Secret Phrase
-
-A persistent theory in the community suggests that Nakamoto may have used specific phrases to generate the private keys for the first Bitcoin addresses, a method known as a "brainwallet." This process involves applying a cryptographic hash function, typically SHA-256, to a memorable string of text to derive a 256-bit private key.
-
-![Bitcoin Address Derivation](assets/Bitcoin%20Address.png)
-
-The phrase from the Genesis Block has been the subject of intense experimentation. Analysis of the blockchain reveals that at least two Bitcoin addresses appear to be derived from variations of this phrase. Collectively, these addresses have recorded 26 transactions, serving as a historical "Wallet Lab" for researchers to study early network behavior and the risks associated with human-generated passphrases. Enthusiasts can explore these derivations at educational platforms such as the Wallet Lab at [https://learn.quantumbtc.dev/](https://learn.quantumbtc.dev/), which allows users to see how specific thoughts are transformed into immutable blockchain coordinates.
 
 ## Candidate Dossier: Hal Finney
 
@@ -128,6 +121,14 @@ The search for Satoshi has produced several less credible, yet culturally signif
 *   **Elon Musk (The Technical Prodigy):** Speculation in 2017 suggested Musk was the creator, based on his technical expertise, PayPal experience, and "first-principles" thinking. Musk has firmly denied these claims.
 *   **Paul Le Roux (The Criminal Mastermind):** A programmer turned international cartel leader, Le Roux was suggested due to his work on "Encryption for the Masses" (E4M). However, his violent behavior stands in stark contrast to the libertarian, non-violent ethos of Satoshi's writings.
 *   **Craig Wright (The Litigious Claimant):** Australian computer scientist Craig Wright spent years aggressively claiming to be Satoshi. His claims were characterized by technical inconsistencies and legal defeats. In 2024, a UK High Court ruling definitively stated that Wright is not Bitcoin's creator, citing his use of "clumsy forgeries" and "technobabble."
+
+## The Mechanics of the "Brainwallet" and the Secret Phrase
+
+A persistent theory in the community suggests that Nakamoto may have used specific phrases to generate the private keys for the first Bitcoin addresses, a method known as a "brainwallet." This process involves applying a cryptographic hash function, typically SHA-256, to a memorable string of text to derive a 256-bit private key.
+
+![Bitcoin Address Derivation](assets/Bitcoin%20Address.png)
+
+The phrase from the Genesis Block has been the subject of intense analysis. Two Bitcoin addresses were derived from this phrase and collectively recorded 26 transactions on the Blockchain. Enthusiasts can explore these derivations at educational platforms such as the Wallet Lab at [https://learn.quantumbtc.dev/](https://learn.quantumbtc.dev/), which allows users to see how specific thoughts are transformed into immutable blockchain coordinates.
 
 ## Conclusion: Cryptographic Forensics and the Legacy of Anonymity
 
