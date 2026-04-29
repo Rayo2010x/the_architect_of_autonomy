@@ -6,8 +6,8 @@
 
 - [The Genesis Block and the Chancellor's Manifesto](#the-genesis-block-and-the-chancellors-manifesto)
 - [The Candidates](#the-candidates)
-- [The Mechanics of the "Brainwallet" and the Secret Phrase](#the-mechanics-of-the-brainwallet-and-the-secret-phrase)
-- [Conclusion: Cryptographic Forensics and the Legacy of Anonymity](#conclusion-cryptographic-forensics-and-the-legacy-of-anonymity)
+- [Cryptographic Forensics and the Legacy of Anonymity](#cryptographic-forensics-and-the-legacy-of-anonymity)
+- [Conclusion](#conclusion)
 
 The identity of Satoshi Nakamoto, the pseudonymous creator of Bitcoin, represents perhaps the most significant enduring mystery of the digital age. Beyond the intrigue of unmasking a billionaire recluse, the search for Nakamoto is a pursuit of the intellectual and philosophical origins of decentralized finance. 
 
@@ -120,7 +120,7 @@ The search for Satoshi has produced several less credible, yet culturally signif
 *   **Paul Le Roux (The Criminal Mastermind):** A programmer turned international cartel leader, Le Roux was suggested due to his work on "Encryption for the Masses" (E4M). However, his violent behavior stands in stark contrast to the libertarian, non-violent ethos of Satoshi's writings.
 *   **Craig Wright (The Litigious Claimant):** Australian computer scientist Craig Wright spent years aggressively claiming to be Satoshi. His claims were characterized by technical inconsistencies and legal defeats. In 2024, a UK High Court ruling definitively stated that Wright is not Bitcoin's creator, citing his use of "clumsy forgeries" and "technobabble."
 
-## The Mechanics of the "Brainwallet" and the Secret Phrase
+## Cryptographic Forensics and the Legacy of Anonymity
 
 A persistent theory in the community suggests that Nakamoto may have used specific phrases to generate the private keys for the first Bitcoin addresses, a method known as a "brainwallet." This process involves applying a cryptographic hash function, typically SHA-256, to a memorable string of text to derive a 256-bit private key.
 
@@ -128,7 +128,7 @@ A persistent theory in the community suggests that Nakamoto may have used specif
 
 The phrase from the Genesis Block has been the subject of intense analysis. Two Bitcoin addresses were derived from this phrase and collectively recorded 26 transactions on the Blockchain. Enthusiasts can explore these derivations at educational platforms such as the Wallet Lab at [https://learn.quantumbtc.dev/](https://learn.quantumbtc.dev/), which allows users to see how specific thoughts are transformed into immutable blockchain coordinates.
 
-## Conclusion: Cryptographic Forensics and the Legacy of Anonymity
+## Conclusion
 
 To understand the search for Satoshi, one must understand the underlying technology of the "Brainwallet." A Bitcoin address is not just a random string; it is a cryptographic destination derived directly from a private key. When a user hashes a phrase like the "Chancellor" headline, they create a predictable private key and its corresponding public address.
 
