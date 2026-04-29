@@ -25,8 +25,7 @@ Nakamoto's choice to embed this headline suggests that Bitcoin was conceived as 
 
 ## The Candidates
 
-xxxxxxxxxxxxx
-
+Over the years, the cryptocurrency community, investigative journalists, and documentary filmmakers have proposed numerous individuals or groups as the true identity of Satoshi Nakamoto. These candidates range from brilliant cryptographers involved in Bitcoin's precursors to individuals with compelling circumstantial connections to the cypherpunk movement. Below, we examine the most prominent figures who have been nominated for the title of the architect of autonomy, analyzing the evidence—both linguistic and technical—that links them to the genesis of the blockchain.
 
 ### Candidate Dossier: Hal Finney
 
